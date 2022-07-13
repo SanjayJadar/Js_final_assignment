@@ -1,0 +1,132 @@
+body{
+    font-family: "Open Sans", sans-serif;
+}
+header{
+    width: 200vh;
+    display: flex;
+    position: fixed;
+    background-color: white;
+    margin-top: -30px;
+    box-shadow: 0px 2px rgb(181, 176, 176);
+}
+#tophead{
+    display: flex;
+}
+#topdisplay{
+    display: flex;
+}
+.topbar{
+    text-decoration: none;
+    color: black;
+    padding-left: 80px;
+    font-weight: 500;
+    cursor: pointer;
+    letter-spacing: 1px;
+    padding-top: 60px;
+}
+a:hover{
+    font-weight: 600;
+}
+#shop{
+    font-size: 40px;
+    font-weight: 800;
+    padding-left: 70px;
+    padding-top: 10px;
+}
+#lane{
+    font-size: 40px;
+    letter-spacing: 1px;
+    padding-top: 44px;
+} 
+#search_box{
+    width: 400px;
+    height: 40px;
+    border: 1px solid rgb(245, 242, 242);
+    background-color: rgb(245, 242, 242);
+    box-sizing: border-box;
+    padding: 0 24px 0 48px;
+    color: black;
+    outline: none;
+    font-size: 14px;
+}
+.fa{
+    padding: 12px 12px 0px 11px;
+    color: rgb(196, 185, 185); 
+    background-color: rgb(245, 242, 242);
+    margin-bottom: 31px;
+}
+.fas{
+    padding: 60px 0 0 100px;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+}
+#products{
+    margin: 44px 0px 52px -35px;
+    padding: 2px; 
+    margin-bottom: 50px;
+    color: white;
+    border-radius: 10px;
+    background-color:  #009688;
+}
+#search{
+    display: flex;
+    padding-left: 60px;
+    padding-top: 48px;
+}
+#imglogo{
+    width: 50px;
+    height: 50px;
+    padding: 45px 0 0 50px;
+}
+#Total{
+    display: flex;
+}
+#submit{
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+}
+#submit:hover{
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.7);
+}
+#thumbnail {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+#thumbnail img {
+    margin: 5px;
+    width: 15%;
+    height: 30%;
+    cursor: pointer;
+    padding: 4px;
+    border-radius: 6px;
+    box-sizing: border-box;
+}
+.border {
+    border: 2px solid #009688;
+}
+footer{
+    display: flex;
+    padding-left: 150px;
+    margin-top: 100px;
+    color: white;
+    background-color: #1c1b1e; 
+}
+
+h3{
+    font-size: 13px;
+    font-weight: 100;
+    padding: 1px;
+    letter-spacing: 1px;
+}
+.main-bar{
+    padding-bottom:12px;
+    font-weight: 600;
+    font-size: 14px;
+}
+.bottom-sub{
+    padding: 40px 20px 40px 120px;
+}
+#body{
+    padding-top: 60px;
+}
